@@ -13,7 +13,6 @@ public class TextProcessorTest {
     @DisplayName("Testar göra små bokstäver av stora")
     void testLowerLetters() {
         TextProcessor ord = new TextProcessor();
-        //System.out.println(ord.reverseLetters("BAH"));
         assertEquals("bah", ord.lowerLetters("BAH"));
     }
 

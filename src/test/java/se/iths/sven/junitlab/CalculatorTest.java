@@ -16,7 +16,7 @@ public class CalculatorTest {
 
     @Disabled
     //@AfterAll
-    static void startAvslutMeddelande(){
+    static void avslutMeddelande(){
         System.out.println("Test av Calculator slutfört");
     }
 
@@ -32,7 +32,6 @@ public class CalculatorTest {
     @DisplayName("Multiplikation: 2*3>5?")
     void testMultiply() {
         Calculator calculator = new Calculator();
-        //assertEquals(4, calculator.multiply(2, 2));
         assertTrue(calculator.multiply(2,3)>5);
     }
 
